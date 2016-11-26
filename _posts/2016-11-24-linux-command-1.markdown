@@ -28,6 +28,7 @@ find ./playground -name *.txt | grep -c [^YO]cadcs3.txt$
 #### 3.往找到的文件中，批量写入内容
 {% highlight shell %}
 find . -name \*.txt -exec sh -c 'echo "abcdef" >> "$1"' -- {} \;
+find . -type f -name \*.txt -exec sh -c 'echo "abcdef" >> "$1"' -- {} \;
 {% endhighlight %}
 注: 确保find出来的都是文件，否则写入的时候会报错
 
@@ -49,6 +50,8 @@ grep -Ev '^\([0-9]{3}\) [0-9]{3}-[0-9]{4}$' phonelist.txt   #找到不符合规�
 {% highlight shell %}
 find . -name \*.txt | sort | head -n 5
 find . -name \*.txt | xargs du -h | sort -r | head -n 5  #按大小排序，找到最大的5个
+find . -type f -name \*.txt | xargs ls -lt | head -n 5   #按时间排序，找到最晚创建的5个, -t 按时间排序
+find . -type f -name \*.txt | xargs ls -ltr | head -n 5  #按时间排序，找到最早创建的5个, -r 倒序
 {% endhighlight %}
 注: sort默认是按从小到大排序
 
