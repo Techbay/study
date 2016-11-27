@@ -6,7 +6,8 @@ categories: Finances
 ---
 
 
-# My Table of content
+# 其他定理列表
+
 - [1、马太效应；](#id-section1)
 - [2、手表定理；](#id-section2)
 - [3、不值得定律；](#id-section3)
