@@ -2,7 +2,7 @@
 layout: post
 title:  "Snap IPO 相关"
 date:   2016-11-26 22:49:20 +0800
-categories: snapchat
+categories: [snapchat]
 ---
 
 

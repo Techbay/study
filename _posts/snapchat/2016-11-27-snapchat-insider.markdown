@@ -2,7 +2,7 @@
 layout: post
 title:  "Snapchat的工作环境"
 date:   2016-11-27 22:49:20 +0800
-categories: Finances, snapchat, IPO
+categories: [Finances, snapchat]
 ---
 
 

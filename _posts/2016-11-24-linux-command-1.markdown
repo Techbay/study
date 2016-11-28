@@ -2,7 +2,7 @@
 layout: post
 title:  "Linux command"
 date:   2016-11-24 22:49:20 +0800
-categories: Linux
+categories: [Linux]
 ---
 
 #### 1.批量创建文件

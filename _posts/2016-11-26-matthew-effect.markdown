@@ -2,7 +2,7 @@
 layout: post
 title:  "Matthew Effect"
 date:   2016-11-26 22:49:20 +0800
-categories: Finances
+categories: [Finances]
 ---
 
 #### 1. 圣经源头

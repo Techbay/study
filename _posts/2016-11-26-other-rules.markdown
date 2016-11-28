@@ -2,7 +2,7 @@
 layout: post
 title:  "其他经济学定理"
 date:   2016-11-26 22:49:20 +0800
-categories: Finances
+categories: [Finances]
 ---
 
 

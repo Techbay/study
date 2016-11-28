@@ -1,0 +1,25 @@
+---
+layout: default
+title: Categories
+keywords: Categories
+---
+
+<div class="categories post-content">
+  <h2><i class="fa fa-bookmark"></i> {{ page.title }}</h2>
+
+  <div class="category-list">
+    {% for category in site.categories %} 
+      <h3 class="category-name" id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h3>
+      <ul class="posts">
+        {% assign pages_list = category[1] %}  
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if group == null or group == node.group %}
+              <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</div>
